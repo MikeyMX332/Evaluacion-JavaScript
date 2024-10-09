@@ -1,12 +1,11 @@
-alert ("Holiwis")
+let nombre = prompt ("Dame tu nombre")
 
-let nombre = "Miguel"; 
+let edad = prompt("dame tu edad"); 
 
-let edad = "22"; 
-
-let estudiaste = true;
-
-console.log("Hola soy Mike y tengo 22 años."); 
+let estudiaste = prompt("Estudiaste?")
+//Asi se tiene que hacer
+console.log("Hola soy "+ nombre + "y tengo "+  edad +" años".);  // Conctenacion correcion //
+// ${nombre Backticks} //
 
 if (estudiaste) {
   console.log(nombre + " si estudiaste! Pasarás la materia! 🤓");
@@ -14,10 +13,6 @@ if (estudiaste) {
   console.log(nombre + " no estudiaste! Reprobarás la materia! 😢");
 }
 
-let nombre = prompt("Miguel");
-let edad = prompt("22");
-
-let estudiaste = confirm("Estudiaste");
 
 if (estudiaste) {
   alert(nombre + " si estudiaste! Pasarás la materia! 🤓");
